@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86e0786f-68f5-4c2a-aecc-9ea36a51f51b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="86e0786f-68f5-4c2a-aecc-9ea36a51f51b" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/01-variable.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/01-variable.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/02-constant.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/02-constant.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/04-float.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/04-float.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go 构建.go build 04-float.go">
     <configuration name="go build 01-variable.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
@@ -56,8 +58,48 @@
       <filePath value="$PROJECT_DIR$/chapter01/01-variable.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 02-constant.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-tutorial" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-tutorial" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/chapter01/02-constant.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 03-operator.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-tutorial" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-tutorial" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/chapter01/03-operator.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 04-float.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-tutorial" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-tutorial" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/chapter01/04-float.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-tutorial/chapter01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-tutorial" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-tutorial/chapter01" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/chapter01/04-float.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 04-float.go" />
+        <item itemvalue="Go 构建.go build go-tutorial/chapter01" />
+        <item itemvalue="Go 构建.go build 03-operator.go" />
+        <item itemvalue="Go 构建.go build 02-constant.go" />
         <item itemvalue="Go 构建.go build 01-variable.go" />
       </list>
     </recent_temporary>
@@ -76,6 +118,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
