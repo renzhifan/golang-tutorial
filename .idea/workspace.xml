@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="86e0786f-68f5-4c2a-aecc-9ea36a51f51b" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01/07-array.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/07-array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/08-slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/08-slice.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -46,16 +51,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go 构建.go build 07-array.go">
-    <configuration name="go build 03-operator.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang-tutorial" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go-tutorial" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/chapter01/03-operator.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go 构建.go build 08-slice.go">
     <configuration name="go build 04-float.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
@@ -83,6 +79,15 @@
       <filePath value="$PROJECT_DIR$/chapter01/07-array.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 08-slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-tutorial" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-tutorial" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/chapter01/08-slice.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build go-tutorial/chapter01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
@@ -94,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 08-slice.go" />
         <item itemvalue="Go 构建.go build 07-array.go" />
         <item itemvalue="Go 构建.go build 05-string.go" />
         <item itemvalue="Go 构建.go build 04-float.go" />
         <item itemvalue="Go 构建.go build go-tutorial/chapter01" />
-        <item itemvalue="Go 构建.go build 03-operator.go" />
       </list>
     </recent_temporary>
   </component>
