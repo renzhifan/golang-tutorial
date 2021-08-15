@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	animal := NewAnimal("中华田园犬")
+	animal := NewAnimal("中华田园犬", 6)
 	pet := NewPet("宠物狗")
 	dog := NewDog(&animal, pet)
 

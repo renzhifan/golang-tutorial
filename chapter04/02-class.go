@@ -3,17 +3,17 @@ package main
 import "fmt"
 
 type Student struct {
-	id uint
-	name string
-	male bool
+	id    uint
+	name  string
+	male  bool
 	score float64
 }
 
 func NewStudent(id uint, name string, score float64) *Student {
-	return &Student{id: id, name:name, score:score}
+	return &Student{id: id, name: name, score: score}
 }
 
-func (s Student) GetName() string  {
+func (s Student) GetName() string {
 	return s.name
 }
 
@@ -27,6 +27,8 @@ func (s Student) String() string {
 }
 
 func main() {
-	student := NewStudent(1, "学院君", 100)
+	student := NewStudent(1, "测试一下", 100)
+	fmt.Println(student)
+	student.SetName("测试一下1")
 	fmt.Println(student)
 }

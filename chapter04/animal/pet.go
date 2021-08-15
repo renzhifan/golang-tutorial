@@ -1,13 +1,13 @@
 package animal
 
 type Pet struct {
-    name string
+	name string
 }
 
 func NewPet(name string) Pet {
-    return Pet{name: name}
+	return Pet{name: name}
 }
 
-func (p Pet) GetName() string  {
-    return p.name
+func (p Pet) GetName() string {
+	return p.name
 }
