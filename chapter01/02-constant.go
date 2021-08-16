@@ -29,8 +29,16 @@ const (
 	Saturday
 	numberOfDays
 )
+const (
+	one = iota + 1
+	two
+	three
+	four
+)
+const five = iota
 
 func main() {
+	fmt.Println(one, two, three, four, five)
 	fmt.Printf("x:%v\n", x)
 	fmt.Printf("y:%v\n", y)
 

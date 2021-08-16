@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="86e0786f-68f5-4c2a-aecc-9ea36a51f51b" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter05/error/add.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter05/error/add.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/02-constant.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/02-constant.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/10-pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/10-pointer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter05/defer/demo.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter05/defer/demo.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,56 +53,59 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go 构建.go build add.go">
-    <configuration name="go build 03-compose.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang-tutorial" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/chapter04/03-compose.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build add.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go 构建.go build 02-constant.go">
+    <configuration name="go build 02-constant.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go-tutorial" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/chapter05/error/add.go" />
+      <filePath value="$PROJECT_DIR$/chapter01/02-constant.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-tutorial/chapter04/interface" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang-tutorial" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-tutorial/chapter04/interface" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/chapter04/interface/struct_assign.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build interface_assign.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 10-pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
+      <package value="go-tutorial" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/chapter04/interface/interface_assign.go" />
+      <filePath value="$PROJECT_DIR$/chapter01/10-pointer.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build struct_assign.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build demo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
+      <package value="go-tutorial" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/chapter04/interface/struct_assign.go" />
+      <filePath value="$PROJECT_DIR$/chapter05/defer/demo.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build recover.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-tutorial" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-tutorial" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/chapter05/panic/recover.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build single.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-tutorial" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-tutorial" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/chapter06/linkedlist/single.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build add.go" />
-        <item itemvalue="Go 构建.go build interface_assign.go" />
-        <item itemvalue="Go 构建.go build struct_assign.go" />
-        <item itemvalue="Go 构建.go build go-tutorial/chapter04/interface" />
-        <item itemvalue="Go 构建.go build 03-compose.go" />
+        <item itemvalue="Go 构建.go build 02-constant.go" />
+        <item itemvalue="Go 构建.go build 10-pointer.go" />
+        <item itemvalue="Go 构建.go build recover.go" />
+        <item itemvalue="Go 构建.go build demo.go" />
+        <item itemvalue="Go 构建.go build single.go" />
       </list>
     </recent_temporary>
   </component>

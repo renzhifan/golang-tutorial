@@ -6,9 +6,17 @@ import (
 )
 
 func main() {
+	ii := 10
+	iii := 11
+	pp := &ii
+	ppp := &iii
+	ppp, pp = pp, ppp
+	fmt.Println(pp)
+	fmt.Println(*pp)
+	//panic("dd");
 	a := 100
-	var ptr *int  // 声明指针类型
-	ptr = &a      // 初始化指针类型值为变量 a
+	var ptr *int // 声明指针类型
+	ptr = &a     // 初始化指针类型值为变量 a
 	fmt.Println(ptr)
 	fmt.Println(*ptr)
 
@@ -23,7 +31,7 @@ func main() {
 
 	var fp *float32 = (*float32)(unsafe.Pointer(p))
 	*fp = *fp * 10
-	fmt.Println(i)  // 100
+	fmt.Println(i) // 100
 
 	// 指针运算
 	arr := []int{1, 2, 3}
@@ -34,7 +42,7 @@ func main() {
 	fmt.Println(arr)
 }
 
-func swap(a, b *int)  {
+func swap(a, b *int) {
 	*a, *b = *b, *a
 	fmt.Println(*a, *b)
 }
