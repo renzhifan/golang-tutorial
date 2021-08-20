@@ -2,10 +2,17 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"unsafe"
 )
 
 func main() {
+	name := "Hello Golang"
+	nameP := &name
+	fmt.Println("name变量的值为:", name)
+	fmt.Println("name变量的内存地址为:", nameP)
+	fmt.Println("name变量的值为:", *nameP)
+	os.Exit(1)
 	ii := 10
 	iii := 11
 	pp := &ii
