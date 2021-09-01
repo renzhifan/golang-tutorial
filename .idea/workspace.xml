@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86e0786f-68f5-4c2a-aecc-9ea36a51f51b" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/chapter04/04-Age.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01/11-slice_map.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter04/01-type.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/01-type.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go 构建.go build 04-Age.go">
+  <component name="RunManager" selected="Go 构建.go build 11-slice_map.go">
     <configuration name="go build 01-type.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
@@ -68,15 +67,6 @@
       <package value="go-tutorial" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/chapter04/01-type.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 02-params.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang-tutorial" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go-tutorial" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/chapter03/02-params.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build 04-Age.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -88,13 +78,22 @@
       <filePath value="$PROJECT_DIR$/chapter04/04-Age.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-tutorial/chapter03" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 11-slice_map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-tutorial" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-tutorial" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/chapter01/11-slice_map.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-tutorial/chapter01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-tutorial/chapter03" />
+      <package value="go-tutorial/chapter01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/chapter03/02-params.go" />
+      <filePath value="$PROJECT_DIR$/chapter01/11-slice_map.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-tutorial/chapter04" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -108,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 11-slice_map.go" />
+        <item itemvalue="Go 构建.go build go-tutorial/chapter01" />
         <item itemvalue="Go 构建.go build 04-Age.go" />
         <item itemvalue="Go 构建.go build 01-type.go" />
         <item itemvalue="Go 构建.go build go-tutorial/chapter04" />
-        <item itemvalue="Go 构建.go build 02-params.go" />
-        <item itemvalue="Go 构建.go build go-tutorial/chapter03" />
       </list>
     </recent_temporary>
   </component>
