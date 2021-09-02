@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e0786f-68f5-4c2a-aecc-9ea36a51f51b" name="Default Changelist" comment="切片map">
-      <change afterPath="$PROJECT_DIR$/chapter01/12-viper.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/13-log.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log.log" afterDir="false" />
+    <list default="true" id="86e0786f-68f5-4c2a-aecc-9ea36a51f51b" name="Default Changelist" comment="使用viper 和log">
+      <change afterPath="$PROJECT_DIR$/2021-09-02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/2021-09-02.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter01/13-log.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/13-log.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,7 @@
       <recent name="$PROJECT_DIR$/chapter01" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 12-viper.go">
+  <component name="RunManager" selected="Go 构建.go build 13-log.go">
     <configuration name="go build 11-slice_map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
@@ -123,8 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build 12-viper.go" />
         <item itemvalue="Go 构建.go build 13-log.go" />
+        <item itemvalue="Go 构建.go build 12-viper.go" />
         <item itemvalue="Go 构建.go build viper.go" />
         <item itemvalue="Go 构建.go build 11-slice_map.go" />
         <item itemvalue="Go 构建.go build go-tutorial/chapter01" />
@@ -151,7 +149,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="切片map" />
-    <option name="LAST_COMMIT_MESSAGE" value="切片map" />
+    <MESSAGE value="使用viper 和log" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用viper 和log" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
