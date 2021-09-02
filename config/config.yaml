@@ -1,0 +1,9 @@
+email:
+  from: 980306794@qq.com
+  bcc: 980306794@qq.com
+  addr: smtp.qq.com:25
+  identity: GoBlog
+  username: 980306794@qq.com
+  password: xxifqeciaarqbbec
+  host: smtp.qq.com
+

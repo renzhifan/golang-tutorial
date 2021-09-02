@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e0786f-68f5-4c2a-aecc-9ea36a51f51b" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/chapter01/11-slice_map.go" afterDir="false" />
+    <list default="true" id="86e0786f-68f5-4c2a-aecc-9ea36a51f51b" name="Default Changelist" comment="切片map">
+      <change afterPath="$PROJECT_DIR$/chapter01/12-viper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01/13-log.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -45,7 +51,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -59,25 +65,17 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go 构建.go build 11-slice_map.go">
-    <configuration name="go build 01-type.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang-tutorial" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go-tutorial" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/chapter04/01-type.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 04-Age.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang-tutorial" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go-tutorial" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/chapter04/04-Age.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/chapter01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go 构建.go build 12-viper.go">
     <configuration name="go build 11-slice_map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
@@ -85,6 +83,24 @@
       <package value="go-tutorial" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/chapter01/11-slice_map.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 12-viper.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-tutorial" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-tutorial" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/chapter01/12-viper.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 13-log.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-tutorial" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-tutorial" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/chapter01/13-log.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-tutorial/chapter01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -96,22 +112,22 @@
       <filePath value="$PROJECT_DIR$/chapter01/11-slice_map.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-tutorial/chapter04" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build viper.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-tutorial/chapter04" />
+      <kind value="FILE" />
+      <package value="go-tutorial" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/chapter04/01-type.go" />
+      <filePath value="$PROJECT_DIR$/chapter01/viper.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 12-viper.go" />
+        <item itemvalue="Go 构建.go build 13-log.go" />
+        <item itemvalue="Go 构建.go build viper.go" />
         <item itemvalue="Go 构建.go build 11-slice_map.go" />
         <item itemvalue="Go 构建.go build go-tutorial/chapter01" />
-        <item itemvalue="Go 构建.go build 04-Age.go" />
-        <item itemvalue="Go 构建.go build 01-type.go" />
-        <item itemvalue="Go 构建.go build go-tutorial/chapter04" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +150,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Default Changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+    <MESSAGE value="切片map" />
+    <option name="LAST_COMMIT_MESSAGE" value="切片map" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
