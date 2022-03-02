@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86e0786f-68f5-4c2a-aecc-9ea36a51f51b" name="Default Changelist" comment="使用viper 和log">
-      <change afterPath="$PROJECT_DIR$/2021-09-02.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/2021-09-02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter01/14-fmt.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter01/13-log.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter01/13-log.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +21,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.15.6/libexec" />
+  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.17.5/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -74,6 +71,16 @@
     </key>
   </component>
   <component name="RunManager" selected="Go 构建.go build 13-log.go">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="golang-tutorial" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="PACKAGE" />
+      <package value="github.com/renzhifan/golang-tutorial" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build 11-slice_map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
@@ -117,6 +124,17 @@
       <package value="go-tutorial" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/chapter01/viper.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="golang-tutorial" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <package value="github.com/renzhifan/golang-tutorial" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
